@@ -209,3 +209,25 @@
      display: flex;
      justify-content: center;
 }
+
+footer {
+    background-color: rgba(0, 25, 49, 1);
+    padding: 80px 120px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+    margin: 40px 0;
+}
+
+footer h6 {
+    color: white;
+    text-align: center;
+}
