@@ -8,11 +8,11 @@
      box-sizing: border-box;
 }
 .btn{
-    max-width: 164px;
+    /* max-width: 164px; */
      background-color: #469165;
      color: white;
      padding: 16px;
-     margin-right: 120px;
+     /* margin-right: 120px; */
      border: none;
      border-radius: 8px;
      
@@ -49,11 +49,11 @@
      border-radius: 8px;
 }
 .banner-btn-2{
-    color: white;
-    background-color: #469165;
     padding: 12px;
     padding-right: 36px;
     border-radius: 8px;
+    background-color: #469165;
+    color: white;
 
 }
 .banner-btn-2-2{
@@ -176,7 +176,36 @@
 }
 .hero-content h1{
      padding-bottom: 16px;
+     margin-top: 80px;
+     margin-bottom: 16px;
 }
 .hero-content p{
     padding-bottom: 40px;
+}
+.early-section{
+    text-align: center;
+    margin: 120px;
+    /* width: 1200px;
+    height: 384px; */
+    background-color: #6273825d;
+    padding-top: 80px;
+    border-radius: 12px;
+    padding-bottom: 80px;
+     
+}
+ 
+.early-section p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #627382;
+}
+.early-section h5{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
+.btn-text{
+     display: flex;
+     justify-content: center;
 }
